@@ -1,0 +1,274 @@
+{
+  "data": [
+    {
+      "path": "spine/bg/bg_wilderness/bg_wilderness.atlas",
+      "name": "spine_bg_bg_wilderness_bg_wilderness.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/ee56823c4ef6490326251161d02f7421/10/9b/2e/43/60397057bf8b8f894a9930119812e2f8.atlas"
+    },
+    {
+      "path": "spine/bg/bg_wilderness/bg_wilderness.json",
+      "name": "spine_bg_bg_wilderness_bg_wilderness.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e673e55932f60a6caec42ff4c1f4f2a7/10/9b/2e/43/5e08b8389c6b3ba3adb60980aecd39a5.json"
+    },
+    {
+      "path": "spine/bg/bg_wilderness/bg_wilderness.png",
+      "name": "spine_bg_bg_wilderness_bg_wilderness.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/503de4aab0f60ea9565aab0b3dd5352c/10/9b/2e/43/8bd90c82ac595eefeafca2b2c749b2e3.png"
+    },
+    {
+      "path": "spine/bg/episode/bg_episode.atlas",
+      "name": "spine_bg_episode_bg_episode.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7bdb751ee029a7c0e44a69d4f7d87b2c/cb/9e/ab/13/f00af96f65642d7ff62fb407948e8c01.atlas"
+    },
+    {
+      "path": "spine/bg/episode/bg_episode.json",
+      "name": "spine_bg_episode_bg_episode.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d40fa7440d7baa4cadfa10c627ccd043/cb/9e/ab/13/cf55c66676fd415eea4aebf4b1c1d615.json"
+    },
+    {
+      "path": "spine/bg/episode/bg_episode.png",
+      "name": "spine_bg_episode_bg_episode.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/73577eaf9013bf26a6a4696772c0d68a/cb/9e/ab/13/a0719da33ea6786f9f624503ebf8f2ed.png"
+    },
+    {
+      "path": "spine/bg/home/600101/600101.atlas",
+      "name": "spine_bg_home_600101_600101.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/f1357d48d4ed267049421eb80f0c0e61/14/6d/4570f7d4184e599463be04ed8dab353d.atlas"
+    },
+    {
+      "path": "spine/bg/home/600101/600101.json",
+      "name": "spine_bg_home_600101_600101.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2641330a6aef7472697463ee7db1adc0/14/6d/42f4f3f574280450d52e5083284bae17.json"
+    },
+    {
+      "path": "spine/bg/home/600101/600101.png",
+      "name": "spine_bg_home_600101_600101.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/37f562c39cc95c9259947269c99a5042/14/6d/29e069107decae7587a8667c2bf3b0d2.png"
+    },
+    {
+      "path": "spine/bg/home/600101/600101_beach.atlas",
+      "name": "spine_bg_home_600101_600101_beach.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/fdc61921d6251c677c449ed7869872f8/5c/b5/04/d5/e4a3f1079e4d8c8142d687fd42b937b9.atlas"
+    },
+    {
+      "path": "spine/bg/home/600101/600101_beach.json",
+      "name": "spine_bg_home_600101_600101_beach.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d5a77427516d3e118ed89a9a60fb44e5/5c/b5/04/d5/e094825b089a9059cbe658cf7212ed48.json"
+    },
+    {
+      "path": "spine/bg/home/600101/600101_beach.png",
+      "name": "spine_bg_home_600101_600101_beach.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7071da518ee15eaf4a8d13bbcd0c169d/5c/b5/04/d5/55ae9062d55c96f011ac48e214b7dd9a.png"
+    },
+    {
+      "path": "spine/bg/home/600101_beach_summer/600101_beach_summer.atlas",
+      "name": "spine_bg_home_600101_beach_summer_600101_beach_summer.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/dd8b4a5f61be7915a4cf51458e1cbe25/83/7a/3c/d5/124920b0252325a6514d7a7188c70c80.atlas"
+    },
+    {
+      "path": "spine/bg/home/600101_beach_summer/600101_beach_summer.json",
+      "name": "spine_bg_home_600101_beach_summer_600101_beach_summer.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/86b91ffaf2644580538bf0a4582930ca/83/7a/3c/d5/f1ce171fd6bfa8b7979121ae2c6d51dc.json"
+    },
+    {
+      "path": "spine/bg/home/600101_beach_summer/600101_beach_summer.png",
+      "name": "spine_bg_home_600101_beach_summer_600101_beach_summer.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/ba195c295b6601f6c882afe850a02397/83/7a/3c/d5/dcb8736b02d782cde2d3316ac08f5604.png"
+    },
+    {
+      "path": "spine/bg/home/600101_christmas/600101_christmas.atlas",
+      "name": "spine_bg_home_600101_christmas_600101_christmas.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/af59c5aecdde54ae4ef56457944b916f/d8/ac/5a/bf/842bd1bf20ae9021b6c24c223a34aa9b.atlas"
+    },
+    {
+      "path": "spine/bg/home/600101_christmas/600101_christmas.json",
+      "name": "spine_bg_home_600101_christmas_600101_christmas.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2bca223c307663a551668735efec99b6/d8/ac/5a/bf/2b8a7525adaf3a42c0571dc0a4c9f467.json"
+    },
+    {
+      "path": "spine/bg/home/600101_christmas/600101_christmas.png",
+      "name": "spine_bg_home_600101_christmas_600101_christmas.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/f17740dc352edae46aab1e7535738063/d8/ac/5a/bf/b736dcfbad0f250faad231ea712a3b04.png"
+    },
+    {
+      "path": "spine/bg/home/beach/bg_beach.atlas",
+      "name": "spine_bg_home_beach_bg_beach.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/5747e891f15c6e0e01f821b63ac9f4c3/b5/b8/6c/6d/5f2d2cd7cd9b382410855ced11198185.atlas"
+    },
+    {
+      "path": "spine/bg/home/beach/bg_beach.json",
+      "name": "spine_bg_home_beach_bg_beach.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/417ee8b5ad998bce7e43ff99a999e0fa/b5/b8/6c/6d/b32c3bb1f3ea6f5fd3b5c557bd0127c3.json"
+    },
+    {
+      "path": "spine/bg/home/beach/bg_beach.png",
+      "name": "spine_bg_home_beach_bg_beach.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2247a0a9424430f2b644237dc1d48338/b5/b8/6c/6d/244168469da3d93b5a034d1bb4468a2e.png"
+    },
+    {
+      "path": "spine/bg/home/kojiin/bg_kojiin.atlas",
+      "name": "spine_bg_home_kojiin_bg_kojiin.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/4323cdee406aa2fb6363d5d88afd2a65/54/b2/b9/2c/ffa06a10654040b85ea9e8e95cbe59e3.atlas"
+    },
+    {
+      "path": "spine/bg/home/kojiin/bg_kojiin.json",
+      "name": "spine_bg_home_kojiin_bg_kojiin.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/eb0fbb0b0137235894e1749f190bad01/54/b2/b9/2c/c30518b8d520d7810480b102031cfb2d.json"
+    },
+    {
+      "path": "spine/bg/home/kojiin/bg_kojiin.png",
+      "name": "spine_bg_home_kojiin_bg_kojiin.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2e7f42ee39f46b14c46afafbeab9fc92/54/b2/b9/2c/bba187f355bab547fbe4f87b207a336e.png"
+    },
+    {
+      "path": "spine/bg/home/kojiin_christmas/bg_kojiin_christmas.atlas",
+      "name": "spine_bg_home_kojiin_christmas_bg_kojiin_christmas.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7126a2b77aa6e1c67413ff1627a33fd5/6f/42/49/f5/5deab75c6691cda6c8aa401f52461297.atlas"
+    },
+    {
+      "path": "spine/bg/home/kojiin_christmas/bg_kojiin_christmas.json",
+      "name": "spine_bg_home_kojiin_christmas_bg_kojiin_christmas.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e94ebdc67836e8cfc8efdcfec311da49/6f/42/49/f5/97f9ccd23110b0010ced0881d850592f.json"
+    },
+    {
+      "path": "spine/bg/home/kojiin_christmas/bg_kojiin_christmas.png",
+      "name": "spine_bg_home_kojiin_christmas_bg_kojiin_christmas.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/40fa76b66a6c4a58b5893917722a3cd9/6f/42/49/f5/7bfb43b9fc553a2ac96abcb12cf842eb.png"
+    },
+    {
+      "path": "spine/bg/home/kojiin_halloween/bg_kojiin.atlas",
+      "name": "spine_bg_home_kojiin_halloween_bg_kojiin.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d9fefa43b9c55c524325374d0410ea45/06/63/b60c0e68e6d442d3433558a5be87f366.atlas"
+    },
+    {
+      "path": "spine/bg/home/kojiin_halloween/bg_kojiin.json",
+      "name": "spine_bg_home_kojiin_halloween_bg_kojiin.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/1a6394b25c23469c5f8e3c52fe509941/06/63/6fa8292b09e9190f0c1f56e948d13b9c.json"
+    },
+    {
+      "path": "spine/bg/home/kojiin_halloween/bg_kojiin.png",
+      "name": "spine_bg_home_kojiin_halloween_bg_kojiin.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/71520f4012b46a2174981f2550ce96a2/06/63/91286401a3ec3d8a7c09c514b3a1f85c.png"
+    },
+    {
+      "path": "spine/bg/home/kojiin_harf/bg_kojiin.atlas",
+      "name": "spine_bg_home_kojiin_harf_bg_kojiin.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/6d7da3a5ede95913ec6ef5cbad573de9/82/a7/54/68/1337cce43b265bea34edb92faa4e4d38.atlas"
+    },
+    {
+      "path": "spine/bg/home/kojiin_harf/bg_kojiin.json",
+      "name": "spine_bg_home_kojiin_harf_bg_kojiin.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/a6c188cf9308a197072c0e07fe548d50/82/a7/54/68/dcc02cd6d0c45e47df974787eca0b477.json"
+    },
+    {
+      "path": "spine/bg/home/kojiin_harf/bg_kojiin.png",
+      "name": "spine_bg_home_kojiin_harf_bg_kojiin.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/604a291717a813f5acf0ecc048ca6ca2/82/a7/54/68/623cc7ece1b2e87236de0b41612c0a7f.png"
+    },
+    {
+      "path": "spine/bg/home/kojiin_kekkon/bg_kojiin.atlas",
+      "name": "spine_bg_home_kojiin_kekkon_bg_kojiin.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/65fa162d991ed4cdfba7a843fc505976/74/bc/79/238db73d8d9a1226d25d935938acd5e5.atlas"
+    },
+    {
+      "path": "spine/bg/home/kojiin_kekkon/bg_kojiin.json",
+      "name": "spine_bg_home_kojiin_kekkon_bg_kojiin.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/adf756c777fa98e02066051c62ae6bd8/74/bc/79/32294c4b0f5f0e53e58dfd54587ee916.json"
+    },
+    {
+      "path": "spine/bg/home/kojiin_kekkon/bg_kojiin.png",
+      "name": "spine_bg_home_kojiin_kekkon_bg_kojiin.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7150bb17e1324786d2930de6ae2243b7/74/bc/79/440f8d0c9e731ebd0ae64d89a4d589fe.png"
+    },
+    {
+      "path": "spine/bg/home/kojiin_newYear/bg_kojiin.atlas",
+      "name": "spine_bg_home_kojiin_newYear_bg_kojiin.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/ee75e39c5c669f80d4f47c2c6f713930/0f/bf/49/d6/478397dbb2fce8567cb53bf856ff9aea.atlas"
+    },
+    {
+      "path": "spine/bg/home/kojiin_newYear/bg_kojiin.json",
+      "name": "spine_bg_home_kojiin_newYear_bg_kojiin.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/baa50498d8fcb084c7cd75d70237dfbd/0f/bf/49/d6/ac2bb8bed5d92d2894f4a4bdd6589432.json"
+    },
+    {
+      "path": "spine/bg/home/kojiin_newYear/bg_kojiin.png",
+      "name": "spine_bg_home_kojiin_newYear_bg_kojiin.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/0a6f2ef1ddb1a3a71b93606451c360a4/0f/bf/49/d6/aa129d8f91cf069e42607c6e35a75cd0.png"
+    },
+    {
+      "path": "spine/bg/home/kojiin_sakura/bg_kojiin.atlas",
+      "name": "spine_bg_home_kojiin_sakura_bg_kojiin.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/b87416482e98702c249493b39d77e7aa/f3/9e/ae/d7/238db73d8d9a1226d25d935938acd5e5.atlas"
+    },
+    {
+      "path": "spine/bg/home/kojiin_sakura/bg_kojiin.json",
+      "name": "spine_bg_home_kojiin_sakura_bg_kojiin.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/030d111a5a379b55d36789b24cc0a80e/f3/9e/ae/d7/da3dbee2914d003d0a6e1532a91cd12d.json"
+    },
+    {
+      "path": "spine/bg/home/kojiin_sakura/bg_kojiin.png",
+      "name": "spine_bg_home_kojiin_sakura_bg_kojiin.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/8faa7678401c68c731bf455fe47d5b05/f3/9e/ae/d7/2599b333e006f5ca026ce1d56cbfa421.png"
+    },
+    {
+      "path": "spine/bg/practice/bg_practice.atlas",
+      "name": "spine_bg_practice_bg_practice.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/079404a733fab0de8293d976f2468889/ba/0d/78/38a7c0a24398326e0954d8e0239f0ac2.atlas"
+    },
+    {
+      "path": "spine/bg/practice/bg_practice.json",
+      "name": "spine_bg_practice_bg_practice.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/eca72bf5c91de29afef27f1421b6193b/ba/0d/78/a955495d0d0818140324824bb525df66.json"
+    },
+    {
+      "path": "spine/bg/practice/bg_practice.png",
+      "name": "spine_bg_practice_bg_practice.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/8b99e37e6ac60beb8b32c48cf3bf6dad/ba/0d/78/1d40a0e71c2c347fa13354cf6beaedc3.png"
+    },
+    {
+      "path": "spine/bg/practice_daily/bg_practice_daily.atlas",
+      "name": "spine_bg_practice_daily_bg_practice_daily.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/38faf03aa2d5f1f86129085532ee7604/7f/23/43/7601335aa1ebc0a4940acbfc5e8f25a4.atlas"
+    },
+    {
+      "path": "spine/bg/practice_daily/bg_practice_daily.json",
+      "name": "spine_bg_practice_daily_bg_practice_daily.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e2ef0f3672ae2d7e7e4d17ea75ef132f/7f/23/43/95374e3927a66f6fb3228601428028e9.json"
+    },
+    {
+      "path": "spine/bg/practice_daily/bg_practice_daily.png",
+      "name": "spine_bg_practice_daily_bg_practice_daily.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7216fcc6d99ef3ae778bdcdfff53b7e3/7f/23/43/f23f4d9695dde4cc2544d39d1d0d663a.png"
+    },
+    {
+      "path": "spine/bg/shop/christmas/bg_shop.atlas",
+      "name": "spine_bg_shop_christmas_bg_shop.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2daacc721dc302e896d82780830c03d0/10/86/1d/23/89dc1446bb7f8e2f40463da827f6f4a6.atlas"
+    },
+    {
+      "path": "spine/bg/shop/christmas/bg_shop.json",
+      "name": "spine_bg_shop_christmas_bg_shop.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/af41555c1fa866f83078380b9f96f7d8/10/86/1d/23/03b7315d4088bba3ff6562499345043b.json"
+    },
+    {
+      "path": "spine/bg/shop/christmas/bg_shop.png",
+      "name": "spine_bg_shop_christmas_bg_shop.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/5ff91827489ea52120e1bd7de7a04fda/10/86/1d/23/555a3bc002e7cda0a9991a357360379f.png"
+    },
+    {
+      "path": "spine/bg/shop/default/bg_shop.atlas",
+      "name": "spine_bg_shop_default_bg_shop.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/a64c2362e1df8d1f7d5dd6a8db46e9ed/53/b3/2e/59/89dc1446bb7f8e2f40463da827f6f4a6.atlas"
+    },
+    {
+      "path": "spine/bg/shop/default/bg_shop.json",
+      "name": "spine_bg_shop_default_bg_shop.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/8b8703bf795ccf9d3f216c0bf2906510/53/b3/2e/59/03b7315d4088bba3ff6562499345043b.json"
+    },
+    {
+      "path": "spine/bg/shop/default/bg_shop.png",
+      "name": "spine_bg_shop_default_bg_shop.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/00355689f3a3bb0b4291f041d6b95e53/53/b3/2e/59/c9468321678cf9d46533edc37fb25809.png"
+    }
+  ]
+}

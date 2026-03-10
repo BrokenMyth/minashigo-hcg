@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "path": "image/common/SquareWhite.png",
+      "name": "image_common_SquareWhite.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/274ee5dd96510c53c37b3edf4766ce0d/17/29/6d/c188be893b5ffafef422ae6ae2d8aaf6.png"
+    },
+    {
+      "path": "image/common/treasureChest/close/1.png",
+      "name": "image_common_treasureChest_close_1.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/45271c0c68db7ae981aca138249bcbf8/36/94/86/42/317ebfc5685f5b15d55d9893ad99b903.png"
+    },
+    {
+      "path": "image/common/treasureChest/close/2.png",
+      "name": "image_common_treasureChest_close_2.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/11adea67a3ef2318fa461086d1b06aa6/0d/81/78/7e/8a2733db92e5697e459c41f5e8320395.png"
+    },
+    {
+      "path": "image/common/treasureChest/close/3.png",
+      "name": "image_common_treasureChest_close_3.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/816479e1905e333d66f89743c84b1250/5b/7f/09/fd/eb63e5fbbea1a1045f52f2ee90aaebc7.png"
+    },
+    {
+      "path": "image/common/treasureChest/close/4.png",
+      "name": "image_common_treasureChest_close_4.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/ef549ed96ae524180a244570ec468a5b/bb/b0/50/2e/ec3ffa3dcfb1772c942649526dd2e229.png"
+    },
+    {
+      "path": "image/common/treasureChest/open/1.png",
+      "name": "image_common_treasureChest_open_1.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/4c190ab64b2ccc32212c21cbf56bb6ec/56/22/6e/f4/9844a7ebc749f913bb5a05b659ab10a1.png"
+    },
+    {
+      "path": "image/common/treasureChest/open/2.png",
+      "name": "image_common_treasureChest_open_2.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/05da18b19fa297bd34c5730ed7dfc8be/02/cf/8b/d8/efa48efde61d65ca26bf7210a6f6ced1.png"
+    },
+    {
+      "path": "image/common/treasureChest/open/3.png",
+      "name": "image_common_treasureChest_open_3.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/8133c3460522b9134e9ba9d0930dc71a/21/82/13e47846f680ab6e71672c883f08e4e0.png"
+    },
+    {
+      "path": "image/common/treasureChest/open/4.png",
+      "name": "image_common_treasureChest_open_4.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/f3ae3b2f483c9b5609b11ac11f880fa9/1e/25/7c/b4a706094dc65687e9f8fa739139b966.png"
+    }
+  ]
+}

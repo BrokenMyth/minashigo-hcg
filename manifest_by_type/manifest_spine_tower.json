@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "path": "spine/tower/effect/ef_complete.atlas",
+      "name": "spine_tower_effect_ef_complete.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/a57b758f75e1dab165b6b7e12a750481/7c/88/b5/d7/bba24cfcb0196e4daee57e0249a0f627.atlas"
+    },
+    {
+      "path": "spine/tower/effect/ef_complete.json",
+      "name": "spine_tower_effect_ef_complete.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/3467b62a387c63fb2594a18fdf00e2ff/7c/88/b5/d7/fe457338e616caae08cf4bb756fc012d.json"
+    },
+    {
+      "path": "spine/tower/effect/ef_complete.png",
+      "name": "spine_tower_effect_ef_complete.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/0dd623749fdc7e706128cd7f1f8cb257/7c/88/b5/d7/e1727243eb6d3323fc2f28d9dc9e4345.png"
+    },
+    {
+      "path": "spine/tower/effect/ef_treasure.atlas",
+      "name": "spine_tower_effect_ef_treasure.atlas",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/be438e58e5d1006fb8d855d5c8df7f66/e2/51/59/abbcbc8ec364508b327dcddc7c2d46e0.atlas"
+    },
+    {
+      "path": "spine/tower/effect/ef_treasure.json",
+      "name": "spine_tower_effect_ef_treasure.json",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/9a1d25238d85df2f95ea9d7134681403/e2/51/59/e4206181f39608b44d655aaf82933133.json"
+    },
+    {
+      "path": "spine/tower/effect/ef_treasure.png",
+      "name": "spine_tower_effect_ef_treasure.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/23a7dd3f4815d0ecdc9ed1e9afb84236/e2/51/59/44c4c318c5c92a4af65475666c368699.png"
+    }
+  ]
+}

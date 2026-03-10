@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "path": "image/passive/icon/2100100.png",
+      "name": "image_passive_icon_2100100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7510f47979e18e1ed8a8641af7c84701/3f/41/73/97466b6032aa1b90d5ee65b416ecf39e.png"
+    },
+    {
+      "path": "image/passive/icon/2101100.png",
+      "name": "image_passive_icon_2101100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/4631b40ad5c15280cbda3af13e7d471d/52/b3/2d/93/da1f8c15d55f48db18e91c93baa2e591.png"
+    },
+    {
+      "path": "image/passive/icon/2102100.png",
+      "name": "image_passive_icon_2102100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/627dde08e3196d80f248c1eb30971dcb/e2/e0/65/ac9ef29ece309d9aca536ebceff5fe73.png"
+    },
+    {
+      "path": "image/passive/icon/2106100.png",
+      "name": "image_passive_icon_2106100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e31344ad6679fad6367625dd965a86ab/39/ec/da1f8c15d55f48db18e91c93baa2e591.png"
+    },
+    {
+      "path": "image/passive/icon/2107100.png",
+      "name": "image_passive_icon_2107100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/70358d137ea3aa3b13f9545d5cd70ef3/3e/ad/da1f8c15d55f48db18e91c93baa2e591.png"
+    },
+    {
+      "path": "image/passive/icon/2108100.png",
+      "name": "image_passive_icon_2108100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/1dc710cb3b4a3c1395ad0d029f7328e9/07/68/da1f8c15d55f48db18e91c93baa2e591.png"
+    },
+    {
+      "path": "image/passive/icon/2110100.png",
+      "name": "image_passive_icon_2110100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d5ddc89bd5288f7f40772e120b9e6a09/f1/a2/18/77/da1f8c15d55f48db18e91c93baa2e591.png"
+    },
+    {
+      "path": "image/passive/icon/2111100.png",
+      "name": "image_passive_icon_2111100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/8e03895163e8cbde7c7412ff90144ddf/ae/64/48/da1f8c15d55f48db18e91c93baa2e591.png"
+    },
+    {
+      "path": "image/passive/icon/2112100.png",
+      "name": "image_passive_icon_2112100.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/801df992d5eb57e0540cc5260129b633/42/ba/ec/9a/da1f8c15d55f48db18e91c93baa2e591.png"
+    },
+    {
+      "path": "image/passive/icon/900001.png",
+      "name": "image_passive_icon_900001.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/68cd558afeaf025cba741ee40f445075/ad/95/4e/97466b6032aa1b90d5ee65b416ecf39e.png"
+    },
+    {
+      "path": "image/passive/icon/900002.png",
+      "name": "image_passive_icon_900002.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e31a10b49e83fb5caa6f867941feaf71/90/80/e4/f0/ac9ef29ece309d9aca536ebceff5fe73.png"
+    },
+    {
+      "path": "image/passive/icon/ab02003.png",
+      "name": "image_passive_icon_ab02003.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/5c6582c45ebebd379627a61abc0a1929/ee/cd/84/cb/425759be72692d73d7981f04b460170b.png"
+    },
+    {
+      "path": "image/passive/icon/ab02004.png",
+      "name": "image_passive_icon_ab02004.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2b727825af546d7a4c3b5ff866cd2157/2c/33/9f408da06100b5d7ebbc4acabd62843a.png"
+    },
+    {
+      "path": "image/passive/icon/ab02005.png",
+      "name": "image_passive_icon_ab02005.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/4bae9a53f478e9f4770ba108b2a3b407/00/0b/350dd05d7113263f4b63b96c578d4094.png"
+    },
+    {
+      "path": "image/passive/icon/ab02006.png",
+      "name": "image_passive_icon_ab02006.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2f7e5f84adba2ed87cd8b9b6a220c242/01/2b/40/9a773193ecc1aa50e6a01c031b1d0378.png"
+    },
+    {
+      "path": "image/passive/icon/ab02007.png",
+      "name": "image_passive_icon_ab02007.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e2aa668b1bbc11a196728114cdcaf84c/e2/e6/5a/878786d422e77740eba76992732f1ee0.png"
+    },
+    {
+      "path": "image/passive/icon/ab02008.png",
+      "name": "image_passive_icon_ab02008.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/6d46ab4132da6f574567b16631e4220f/5a/96/01/c1/b4d8e132acca51f0ef47f53cd317fbd3.png"
+    },
+    {
+      "path": "image/passive/icon/ab03001.png",
+      "name": "image_passive_icon_ab03001.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/5a9c765baf331f7ef94c97ab187db421/4c/09/69/b4a5557f4899e6bffe5584d551de07c8.png"
+    },
+    {
+      "path": "image/passive/icon/ab03002.png",
+      "name": "image_passive_icon_ab03002.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e1cef61f7ff0a7c3404ac7a31285ad83/ac/9f/43/ec/9542c563fec5c9e90fc7c9dd404442de.png"
+    },
+    {
+      "path": "image/passive/icon/ab03003.png",
+      "name": "image_passive_icon_ab03003.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7dcbb2cfb5f7adb192c2601ec8bdeb28/0b/c0/fc2b2182102802dbf41d0783770108e3.png"
+    },
+    {
+      "path": "image/passive/icon/ab03004.png",
+      "name": "image_passive_icon_ab03004.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/c42d1e84a730e9f59f426f9faf450e2c/06/6f/114d380d09b060fb1a252339ac507736.png"
+    },
+    {
+      "path": "image/passive/icon/ab03005.png",
+      "name": "image_passive_icon_ab03005.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/fd1d6d9da2d63202a8668a7e5692a226/ba/df/05/cb/ec99e46291292e6da4a24b25b9cd061a.png"
+    },
+    {
+      "path": "image/passive/icon/ab03006.png",
+      "name": "image_passive_icon_ab03006.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/75f94356b3f66727839aa393e036b4e1/65/13/b1/f4/61631d034780b1ec97308338b41004a4.png"
+    },
+    {
+      "path": "image/passive/icon/ab04001.png",
+      "name": "image_passive_icon_ab04001.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/8fbe473bcb43b6b676611d50bbc56601/a7/b2/a0/29/82abc9f1e4881f475c0680dd0dbbee39.png"
+    },
+    {
+      "path": "image/passive/icon/ab04002.png",
+      "name": "image_passive_icon_ab04002.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/36224103328f9ba09db448ace67c8b25/7b/03/70/1a62752fd7b399a5948abc3f23a570a8.png"
+    },
+    {
+      "path": "image/passive/icon/ab04003.png",
+      "name": "image_passive_icon_ab04003.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d97af6c8d5673e8b7f02516089ba7702/1b/ab/69/f7/c722aa7b6ba09100fd1f6a9ae877d6fa.png"
+    },
+    {
+      "path": "image/passive/icon/ab04004.png",
+      "name": "image_passive_icon_ab04004.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7ee9c7f9a0455bea5bd103549c7e9306/89/dc/48/d9/ce3a73276697fa50e9af0b91891b0663.png"
+    },
+    {
+      "path": "image/passive/icon/ab04005.png",
+      "name": "image_passive_icon_ab04005.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/36f5277b5cbeb23bd65969d5fb368a7a/69/a7/51/63e38ecaa2902d6c0a9e8539b212fa8a.png"
+    },
+    {
+      "path": "image/passive/icon/ab04006.png",
+      "name": "image_passive_icon_ab04006.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/237ce47fcbf0efaceed37e294c2efeaf/eb/4b/71/e4bf14784f92f97beff47c9af69511e5.png"
+    },
+    {
+      "path": "image/passive/icon/ab04007.png",
+      "name": "image_passive_icon_ab04007.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/526b01059380655aef8c3860eff9366f/92/05/4f/fa2ab8f0dac598c51bd5d50a73434183.png"
+    },
+    {
+      "path": "image/passive/icon/ab04008.png",
+      "name": "image_passive_icon_ab04008.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/909ab04a498c1cfdcfe4db73b09dacf1/93/b1/d7/db/7a7a349ba53fb348c8ed100bfe996da8.png"
+    },
+    {
+      "path": "image/passive/icon/ab04009.png",
+      "name": "image_passive_icon_ab04009.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d4ba07f7ba90573e8f8f5275909cf182/dc/94/6a/c8/b0e67d01768641fcc0596bf4753da5b3.png"
+    },
+    {
+      "path": "image/passive/icon/ab10001.png",
+      "name": "image_passive_icon_ab10001.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/5b47320c9a1aabe596f42d41f72e35d9/76/d2/f4/f5/f8822859f625b85b37d00928b241a850.png"
+    },
+    {
+      "path": "image/passive/icon/ab10002.png",
+      "name": "image_passive_icon_ab10002.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/06796e3b9c2a8b0ea7ccbf74dba1c159/a2/7e/b4/fc/5f333218653a094e644459fd08325a23.png"
+    },
+    {
+      "path": "image/passive/icon/ab10003.png",
+      "name": "image_passive_icon_ab10003.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/ade1c762a26f46d1896151b0bbf52448/a2/7f/4f/45031ade26be84d9f3e60d32e51db313.png"
+    },
+    {
+      "path": "image/passive/icon/ab10004.png",
+      "name": "image_passive_icon_ab10004.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/4ea1875be39435d800e52ec9f4fafd80/1d/93/06/b6/bdf8bc21ac2141bf0e462a9b1d18d059.png"
+    },
+    {
+      "path": "image/passive/icon/ab10005.png",
+      "name": "image_passive_icon_ab10005.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/c4e9b9b38bddaee959fab9c32bb171f7/19/aa/7a8f2939be88bd9a9ff6605d0471f9b1.png"
+    },
+    {
+      "path": "image/passive/icon/ab10006.png",
+      "name": "image_passive_icon_ab10006.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/b0677b984b93423e7735c2808093fab2/f9/a0/47/8d95da6a7ac56ed3bcc547b53ea298e5.png"
+    },
+    {
+      "path": "image/passive/icon/ab10007.png",
+      "name": "image_passive_icon_ab10007.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/631183e4d8779ad956ab16d5ad77132b/0b/23/0f7b8099e5193ccf3fd279679b2e46ea.png"
+    },
+    {
+      "path": "image/passive/icon/ab10111.png",
+      "name": "image_passive_icon_ab10111.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e839fd8624f7b279f89ae2642a9d9b4f/21/95/8c/98/a242f62a1bd58bd731ac431cb8f479a0.png"
+    },
+    {
+      "path": "image/passive/icon/ab10112.png",
+      "name": "image_passive_icon_ab10112.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/be36d0e1039d034edb67a56c666cdc9b/34/3a/c7a8b5c1f8d2390c9e87b6fe17d66cdb.png"
+    },
+    {
+      "path": "image/passive/icon/ab10113.png",
+      "name": "image_passive_icon_ab10113.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/b150c17bbf44b7b7e03a3b789d409b38/0b/e1/ffc777462b530508aba2e7f4520a8f41.png"
+    },
+    {
+      "path": "image/passive/icon/ab10114.png",
+      "name": "image_passive_icon_ab10114.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/711bff7033a37783d13f0819eeb1a36d/c9/08/b4/c7/9078c55a3c13f1f6a483a6f8caafcace.png"
+    },
+    {
+      "path": "image/passive/icon/ab10115.png",
+      "name": "image_passive_icon_ab10115.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/9cfd94a4ba719c5b6a8f94c2d59ce18c/d3/73/5c/da/a5dd1e1ffc6e275f8b7ac3dc2ab85b94.png"
+    },
+    {
+      "path": "image/passive/icon/ab10116.png",
+      "name": "image_passive_icon_ab10116.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/de8c1d2877d120890f0998a19e5a82c8/76/b7/22/b1/e7da2640eb633b7b91a11a726715db0a.png"
+    },
+    {
+      "path": "image/passive/icon/ab10117.png",
+      "name": "image_passive_icon_ab10117.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/5a9988138d1374e4ce1dd99f127fc863/17/a5/f7/ed/b71e671056aa76cb68a7fc50b8d96b31.png"
+    },
+    {
+      "path": "image/passive/icon/ab10121.png",
+      "name": "image_passive_icon_ab10121.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/196b69674e43a6ce1216310e5c321150/ff/b8/d2/db/0d5a56ba98804433b8318fe9eb9255cf.png"
+    },
+    {
+      "path": "image/passive/icon/ab10122.png",
+      "name": "image_passive_icon_ab10122.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/0c144db9bb0e0d887a3d23555a829ffe/0f/e7/0ca2621eb5d88756cd4e5ab720fc5c0d.png"
+    },
+    {
+      "path": "image/passive/icon/ab10123.png",
+      "name": "image_passive_icon_ab10123.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d36bd52a78709e4be323fd1c37e54a62/f5/6d/85/dc/335477f9271221f80279fe29a0f05c51.png"
+    },
+    {
+      "path": "image/passive/icon/ab10124.png",
+      "name": "image_passive_icon_ab10124.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7417efd341d0c7f009a522affacffde2/4b/8a/7d/23/193f2c4e8298ab7c7af17a2418bbfed2.png"
+    },
+    {
+      "path": "image/passive/icon/ab10125.png",
+      "name": "image_passive_icon_ab10125.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/96e458f6b225daf74ece06209e0e155a/96/9d/ae/0f/5a634b41e9b5c33ae2b2d8842b1a051f.png"
+    },
+    {
+      "path": "image/passive/icon/ab10126.png",
+      "name": "image_passive_icon_ab10126.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2403b5351391df819ddcca810d6f1113/13/eb/08f1bdc8323713e61ea469f36263a934.png"
+    },
+    {
+      "path": "image/passive/icon/ab10127.png",
+      "name": "image_passive_icon_ab10127.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/8a0a27ca24514c55bd59015124469dcd/0d/ae/2e/f2/4af1a5cc8466906974b32f816a3cede6.png"
+    },
+    {
+      "path": "image/passive/icon/ab10201.png",
+      "name": "image_passive_icon_ab10201.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2c24fdcbc297bc8b20c07ebf835d071a/30/bd/ff/de/6c7859bd04383478994303709fbdc093.png"
+    },
+    {
+      "path": "image/passive/icon/ab10409.png",
+      "name": "image_passive_icon_ab10409.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/c017805a0bdf237fb59b1774b81a6347/bd/4f/6d/0c784fe42b6da9918ca976c788ea3494.png"
+    },
+    {
+      "path": "image/passive/icon/ab10410.png",
+      "name": "image_passive_icon_ab10410.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/60dbbc0b498f163218ae3223bcf6f620/4f/49/42/3d157f0f25d87ad7f219c4b511b3496b.png"
+    },
+    {
+      "path": "image/passive/icon/ab11002.png",
+      "name": "image_passive_icon_ab11002.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/98e58c1ec98ce657bbd9ea608f672e7c/bc/8a/97/dd/3dedc1bb7c38ce9c4d7969f279d580a3.png"
+    },
+    {
+      "path": "image/passive/icon/ab11004.png",
+      "name": "image_passive_icon_ab11004.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/c28aa09656b41e1f36172278c3065066/24/b8/64/be/d1ed3add611ac17fc89b5bfa9784483c.png"
+    },
+    {
+      "path": "image/passive/icon/ab11008.png",
+      "name": "image_passive_icon_ab11008.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/c99454bf0c1a5c2a174ecd2c192761af/94/ef/ee/e2/ebefd29f94ee7c123f220dd5dff25fe8.png"
+    },
+    {
+      "path": "image/passive/icon/ab11009.png",
+      "name": "image_passive_icon_ab11009.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/f9f5ae0197ff63402c8bf96e735f58fd/28/05/6962b43a329dee0ed5e1bf22ba8d1cf5.png"
+    },
+    {
+      "path": "image/passive/icon/ab11010.png",
+      "name": "image_passive_icon_ab11010.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/85f2b95ccf8c0cb3dc0c71914f8ca7b4/07/d6/5bf4948d035ccf2a71d4d11f9dcca81b.png"
+    },
+    {
+      "path": "image/passive/icon/ab11015.png",
+      "name": "image_passive_icon_ab11015.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/c2db043500370631a5d161ebbbbd0dd1/7c/d2/4a/cabe4f248294ea60ab3ab59c2c27c840.png"
+    },
+    {
+      "path": "image/passive/icon/ab11016.png",
+      "name": "image_passive_icon_ab11016.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2c921c8b561bddd109291a22d33b4804/1a/27/3e23ae2e54f78e4f0903b3ff87c4f5ad.png"
+    },
+    {
+      "path": "image/passive/icon/ab11017.png",
+      "name": "image_passive_icon_ab11017.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/57ee242f4acbd94b5f5e2dd7afe36b3f/1a/77/40/898f435333b084f689dcfd4796bdcb1e.png"
+    },
+    {
+      "path": "image/passive/icon/ab11050.png",
+      "name": "image_passive_icon_ab11050.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7f1dddc425d2a50e47001ee1273878e1/61/89/e7/0f/728b79ca788b92ad6020ce4094284f1f.png"
+    },
+    {
+      "path": "image/passive/icon/ab11051.png",
+      "name": "image_passive_icon_ab11051.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/151b29af13a2a9dbd828397d0927519f/91/f3/7d/6bc00be37a940bc37f15724e802881e9.png"
+    },
+    {
+      "path": "image/passive/icon/ab11052.png",
+      "name": "image_passive_icon_ab11052.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/be35fbafc999519400130f5bb3f48848/13/ec/44de6941a2b29a764a238d2062418ec8.png"
+    },
+    {
+      "path": "image/passive/icon/ab11201.png",
+      "name": "image_passive_icon_ab11201.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/01a58b0002dbddc5dd5bab7d584da083/f7/5e/17/f6/91ebb6b8eadf80fad742f67682911146.png"
+    },
+    {
+      "path": "image/passive/icon/ab11401.png",
+      "name": "image_passive_icon_ab11401.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/bade269cd94b7c687367cf54f6d6e064/ee/83/5a/81383dc17184f249ad1f27af7c18c85c.png"
+    },
+    {
+      "path": "image/passive/icon/ab11402.png",
+      "name": "image_passive_icon_ab11402.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/3da2193cc77420befcc5b2b7948cadf5/bb/86/d8/0e/772e890f0e640eb4ac427cc2d2dcd215.png"
+    },
+    {
+      "path": "image/passive/icon/ab11403.png",
+      "name": "image_passive_icon_ab11403.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7c1078215ca59397cc1a6cdf8012025d/80/01/64/6ee8f14129a527d53815acc6346dd06a.png"
+    },
+    {
+      "path": "image/passive/icon/ab11501.png",
+      "name": "image_passive_icon_ab11501.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/5783ca1c4a808f8e8b5b412438dc9921/25/c0/7a/493c1954c6e1bee9fe2c736b9c643054.png"
+    },
+    {
+      "path": "image/passive/icon/ab11504.png",
+      "name": "image_passive_icon_ab11504.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/0dce78626595c4cea56b6f435214a3b9/ea/97/2c/f8/5029cc4c4cf27793715a4d2f1b57e2e0.png"
+    },
+    {
+      "path": "image/passive/icon/ab31001.png",
+      "name": "image_passive_icon_ab31001.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/f41594413b3e7c9a82454d32ff119031/35/bf/c5/ba/ecdbc8277faf3d609f892036ca4cd392.png"
+    },
+    {
+      "path": "image/passive/icon/ab31002.png",
+      "name": "image_passive_icon_ab31002.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/03b987ee02f02fd0dfd40e45baf2022f/00/7d/7c/df/ff40c490eee38996ce09ffa882392dd1.png"
+    },
+    {
+      "path": "image/passive/icon/ab31305.png",
+      "name": "image_passive_icon_ab31305.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e5db755cec49267fcb4f7cb57929365c/5a/e1/6a/87b769dcbbf64b2baf8498d20a878c9d.png"
+    },
+    {
+      "path": "image/passive/icon/ab31306.png",
+      "name": "image_passive_icon_ab31306.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/aa144264a4f6766c01539cc74a53c011/3a/c8/9a/d2/26c81c80e321b130d4e23b02dc69f368.png"
+    },
+    {
+      "path": "image/passive/icon/ab31307.png",
+      "name": "image_passive_icon_ab31307.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/7b2d9984f56f9cc15c00958f3bf76aa5/ce/6a/5c/d9/f8a79bbb682d0419832e3792af747890.png"
+    },
+    {
+      "path": "image/passive/icon/ab31308.png",
+      "name": "image_passive_icon_ab31308.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/0cc3fc5d60abfea2a02c0f08917df682/67/a6/e0/fb/171953bafc2f19ff3275e05700bd5f6f.png"
+    },
+    {
+      "path": "image/passive/icon/ab31309.png",
+      "name": "image_passive_icon_ab31309.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/b55dc1bb062d7dddb00960345f1e23b4/3a/14/b5f3afcf61ae7256aba3ba935072180d.png"
+    },
+    {
+      "path": "image/passive/icon/ab31310.png",
+      "name": "image_passive_icon_ab31310.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/584efef6e9bf207c86dbc397a138f216/e2/b3/af/c2/b95a67ab2633dfc28db983bdede4896c.png"
+    },
+    {
+      "path": "image/passive/icon/ab99999.png",
+      "name": "image_passive_icon_ab99999.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/1dc4d5a4f9350a9ff6c072e80183942c/5e/b7/11/cf/f8cb623aeadaad8480518418e33ec42f.png"
+    }
+  ]
+}

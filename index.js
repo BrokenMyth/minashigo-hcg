@@ -1,23 +1,24 @@
 const CryptoJS = require("crypto-js");
 const fs = require("fs");
+const path = require("path");
 const axios = require("axios");
 const https = require("https");
 const o = require('url');
 
 /// Replace this object by getVersion's response
 const __ = {
-  "resourceVersion": "2.2.31",
-  "masterVersion": "2.1.69",
-  "clientVersion": "2.2.3"
+  "resourceVersion": "2.7.020",
+  "masterVersion": "2.7.02",
+  "clientVersion": "2.7.022",
 }
 
 /// Replace this object by getDmmAccessToken's response
 const _ = {
-  "dmmId": "",
-  "userId": "",
-  "token": "",
-  "secret": "",
-  "expires": 0
+    "dmmId": "56333355",
+    "userId": "AjE6fLqcHwI4ShBFuebwv",
+    "token": "64RT2OtVeCNsHbfJ3vtZWt",
+    "secret": "IfW5JDQIvpErRVFT1ItP7CfhitPlIrzy1T1AZA2mYrZb3a4eVSV1ayhHiXm5l7gjPrpTnQU4gaTgoixgdslyij",
+    "expires": 1773584597
 }
 
 const _data = {
@@ -30,7 +31,21 @@ const _data = {
   "signature_method": "HMAC-SHA256"
 };
 
-(async function main() {
+// 优先使用 update-token.js 生成的 config.json（版本 + token）
+try {
+  const cfg = require("./config.json");
+  if (cfg.version) Object.assign(__, cfg.version);
+  if (cfg.token) {
+    Object.assign(_, cfg.token);
+    const t = cfg.token;
+    _data.dmmId = String(t.dmmId ?? _.dmmId ?? "");
+    _data.user_id = String(t.userId ?? t.user_id ?? _.userId ?? _.user_id ?? "");
+    _data.game_server_token = String(t.token ?? t.oauth_token ?? _.token ?? "");
+    _data.game_server_secret = String(t.secret ?? t.game_server_secret ?? _.secret ?? "");
+  }
+} catch (e) {}
+
+async function main() {
   const { result, version } = await getResource()
   if (result) {
     const stand_resource = JSON.parse(result)
@@ -57,6 +72,22 @@ const _data = {
     //   () => console.log("done")
     // );
     //#endregion
+
+    // 从 manifest 直接导出脚本、音频 URL（无需 getStoryResource，走 CDN）
+    const assetPaths = Object.keys(stand_resource.assets);
+    const audioPaths = assetPaths.filter((p) => /\.(mp3|ogg|wav|m4a)$/i.test(p));
+    const scriptPaths = assetPaths.filter((p) => /\.(json|txt|xml|scenario|ini)$/i.test(p));
+    const audioList = audioPaths.map((path) => ({
+      name: path.replace(/\//g, "_"),
+      url: _getUrl(path, _getMd5(stand_resource, path), version),
+    }));
+    const scriptList = scriptPaths.map((path) => ({
+      name: path.replace(/\//g, "_"),
+      url: _getUrl(path, _getMd5(stand_resource, path), version),
+    }));
+    fs.writeFileSync("./audio.json", JSON.stringify({ data: audioList }, null, 2));
+    fs.writeFileSync("./script.json", JSON.stringify({ data: scriptList }, null, 2));
+    console.log("Exported audio.json (%d), script.json (%d)", audioList.length, scriptList.length);
 
     const httpsAgent = new https.Agent({
       rejectUnauthorized: false, // (NOTE: this will disable client verification)
@@ -88,6 +119,9 @@ const _data = {
             }
             resource.push(adding)
             console.log('adding', adding)
+            if (resource.length % 100 === 0) {
+              fs.writeFileSync('./cg.json', JSON.stringify({ data: resource }))
+            }
           } catch {
             console.log('ERROR', { id, i, j })
             break;
@@ -101,10 +135,97 @@ const _data = {
   } else {
     console.log('result returns null')
   }
-})()
-
+}
+if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
 
 /////////////////////////////////////////////////////////////////////////
+/** 通过 getStoryResource 拉取单个资源的 path+md5（用于剧情脚本等），需 cert/token */
+function _certDir() {
+  const d = __dirname;
+  if (fs.existsSync(path.join(d, "cert.pem"))) return d;
+  const parent = path.join(d, "..");
+  if (fs.existsSync(path.join(parent, "cert.pem"))) return parent;
+  return d;
+}
+async function fetchStoryResourcePath(relativePath) {
+  const certDir = _certDir();
+  const httpsAgent = new https.Agent({
+    rejectUnauthorized: false,
+    cert: fs.readFileSync(path.join(certDir, "cert.pem")),
+    key: fs.readFileSync(path.join(certDir, "key.pem")),
+    passphrase: "",
+  });
+  // CG 用 path+quality:3；剧情/脚本/语音用 quality:0
+  const isImage = /\.(jpg|jpeg|png|gif|webp)$/i.test(relativePath);
+  const body = isImage
+    ? `{"path":"${relativePath}","quality":3}`
+    : `{"path":"${relativePath}","quality":0}`;
+  const getStoryResourceUrl = "https://minasigo-no-shigoto-web-r-server.orphans-order.com/mnsg/story/getStoryResource";
+  const { data } = await axios.post(
+    getStoryResourceUrl,
+    { data: encrypt(body, _.token) },
+    {
+      httpsAgent,
+      headers: {
+        accept: "application/json;charset=UTF-8",
+        authorization: getAuthorization("POST", getStoryResourceUrl),
+        "content-type": "application/json;charset=UTF-8",
+        "x-mnsg-app-version": JSON.stringify(__),
+        origin: "https://minasigo-no-shigoto-pd-r-client.orphans-order.com",
+        referer: "https://minasigo-no-shigoto-pd-r-client.orphans-order.com/",
+      },
+    }
+  );
+  const parsed = JSON.parse(decrypt(data, _.token));
+  const first = parsed?.resources?.[0];
+  if (first) return { path: first.path, md5: first.md5 };
+  return { err: parsed?.err, status: parsed?.status };
+}
+
+/**
+ * readStory：按剧情 ID 读取剧本内容（与 getStoryResource 同域、同认证，可能直接返回剧本 JSON）
+ * @param {object} params - 常见猜想: { storyId, episodeId } 或 { story_id, episode_id } 或 { path }
+ * @returns {object|null} 解密后的响应，或 { err, status }
+ */
+async function readStory(params = {}) {
+  const certDir = _certDir();
+  const httpsAgent = new https.Agent({
+    rejectUnauthorized: false,
+    cert: fs.readFileSync(path.join(certDir, "cert.pem")),
+    key: fs.readFileSync(path.join(certDir, "key.pem")),
+    passphrase: "",
+  });
+  const url = "https://minasigo-no-shigoto-web-r-server.orphans-order.com/mnsg/story/readStory";
+  let body = typeof params === "string" ? params : JSON.stringify(params);
+  // 若传入 { storyId, episodeId } 且服务端期望整段 resourcePath+quality，则改为 { storyId: Number(storyId+episodeId), quality: 3 }
+  if (params && typeof params === "object" && "storyId" in params && "episodeId" in params && params.storyId != null && params.episodeId != null) {
+    const combined = String(params.storyId) + String(params.episodeId);
+    body = JSON.stringify({ storyId: parseInt(combined, 10), quality: 3 });
+  }
+  try {
+    const { data: raw } = await axios.post(url, { data: encrypt(body, _.token) }, {
+      httpsAgent,
+      headers: {
+        accept: "application/json;charset=UTF-8",
+        authorization: getAuthorization("POST", url),
+        "content-type": "application/json;charset=UTF-8",
+        "x-mnsg-app-version": JSON.stringify(__),
+        origin: "https://minasigo-no-shigoto-pd-r-client.orphans-order.com",
+        referer: "https://minasigo-no-shigoto-pd-r-client.orphans-order.com/",
+      },
+    });
+    const ciphertext = (raw && typeof raw === "object" && raw.data != null)
+      ? raw.data
+      : (typeof raw === "string" ? raw : null);
+    if (!ciphertext) return { err: "readStory response empty or invalid", status: 0 };
+    const parsed = JSON.parse(decrypt(ciphertext, _.token));
+    if (parsed?.err != null || parsed?.status != null) return { err: parsed.err, status: parsed.status };
+    return parsed;
+  } catch (e) {
+    return { err: e.message, status: e.response?.status };
+  }
+}
+
 async function getResource() {
   const versionResponse = await axios.get(`https://minasigo-no-shigoto-web-r-server.orphans-order.com/mnsg/user/getVersion`)
 
@@ -198,14 +319,15 @@ function _getUrl(ciphertext, md5, version = __.resourceVersion) {
 }
 
 function _getMd5(resource, image) {
-  return resource.assets[image]["0"]?.md5 || resource.assets[image]["3"].md5;
+  const a = resource.assets[image];
+  return a?.["0"]?.md5 ?? a?.["3"]?.md5 ?? a?.["1"]?.md5;
 }
 
 function _normalizeUrl(t) {
   var e = o.parse(t, !0);
   return delete e.query,
     delete e.search,
-    o.format(e)
+    o.format(e);
 }
 
 function _normalizeParameters(t) {
@@ -256,8 +378,8 @@ function getAuthorization(t, e) {
     i.xoauth_requestor_id = _data.user_id,
     i.oauth_consumer_key = _data.consumer_key,
     i.oauth_signature_method = _data.signature_method,
-    i.oauth_nonce = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER),
-    i.oauth_timestamp = Math.floor(Date.now() / 1e3);
+    i.oauth_nonce = String(Math.floor(Math.random() * Number.MAX_SAFE_INTEGER)),
+    i.oauth_timestamp = String(Math.floor(Date.now() / 1e3));
   var s = _normalizeUrl(e)
     , a = _normalizeParameters(i)
     , r = _constructBaseString(t, s, a)
@@ -266,7 +388,9 @@ function getAuthorization(t, e) {
   return _data.game_server_secret && (u += _data.game_server_secret),
     i.oauth_signature = encryptHmac(r, u),
     Object.keys(i).forEach(function (t) {
-      o = o + " " + t + '="' + i[t] + '"'
+      o = o + " " + t + '="' + i[t] + '"';
     }),
     o
 }
+
+module.exports = { fetchStoryResourcePath, readStory, _getUrl, _getMd5, decrypt, getAuthorization, __version: __ };

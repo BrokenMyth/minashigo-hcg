@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "path": "image/footer/button/fes_gacha.png",
+      "name": "image_footer_button_fes_gacha.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/27cbc2af523174f8fd9a3464a3814cf9/6a/b6/d1/4e/862cda918016ceb8fdcaf5f6eccf7906.png"
+    },
+    {
+      "path": "image/footer/icon/200101footer.png",
+      "name": "image_footer_icon_200101footer.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/49baf6c0cc5584b82f767fb2951f35e7/3f/bb/1f/ee/71e332028bb4419f0a9e67986eabe127.png"
+    },
+    {
+      "path": "image/footer/icon/204601footer.png",
+      "name": "image_footer_icon_204601footer.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/ddbe9afb51a967e30a3152bef6f2c208/48/85/ea/3f/82ab32fa6c7525fa15fd5c93b8bd84d7.png"
+    },
+    {
+      "path": "image/footer/icon/600101footer.png",
+      "name": "image_footer_icon_600101footer.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/1535b8b53dc64cce7c7ff69ee2a8cb3c/ff/8c/78/a2/55fdfde41cd9faae8edd3495f1b8c4d4.png"
+    },
+    {
+      "path": "image/footer/icon/g_104431.png",
+      "name": "image_footer_icon_g_104431.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/ea8f3c5602ffd979a93fd9d055ef6276/3e/91/b9aba8dc66d7e65fefed5e38057c3533.png"
+    },
+    {
+      "path": "image/footer/icon/g_comeback.png",
+      "name": "image_footer_icon_g_comeback.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/db6497c620b6b196c1e7145bba8e54ec/0c/de/da/ef/f410caf8e2e3a56c213f899cfceb65d9.png"
+    },
+    {
+      "path": "image/footer/icon/g_fes.png",
+      "name": "image_footer_icon_g_fes.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/0e8c59f644a6d61121c4d723ce915bcd/e0/d6/96/f1/f0e36a12b6e2f761157a57c9ec5b97ae.png"
+    },
+    {
+      "path": "image/footer/icon/g_free.png",
+      "name": "image_footer_icon_g_free.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/063c2f2fc18fcedb9cf02b98b77cf105/24/47/f54b25b742ee1dfbab2a20da4e9961e6.png"
+    },
+    {
+      "path": "image/footer/text/Txt_confirmedGacha.png",
+      "name": "image_footer_text_Txt_confirmedGacha.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/292fc48e1c19c6f7dcda399cc36cf87a/77/21/6f/9c59ceaabe5ba27c6f519de784141bdd.png"
+    },
+    {
+      "path": "image/footer/text/Txt_gachaFree.png",
+      "name": "image_footer_text_Txt_gachaFree.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/81cdc427908e8e096a2202253992b5a2/0d/00/4bb2d5af31e4d60cfc7cbd89256508f2.png"
+    },
+    {
+      "path": "image/footer/text/Txt_halfPrice.png",
+      "name": "image_footer_text_Txt_halfPrice.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/d086fa0fcde55640ae427f18f7b424b9/0d/39/4939f8ae8699c386c446adfa1e7f3095.png"
+    },
+    {
+      "path": "image/footer/text/Txt_new.png",
+      "name": "image_footer_text_Txt_new.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/e25a34b9897b0398744cb15c560cb784/d3/6d/5e/eb74325b046904a63a4cd87237968d68.png"
+    },
+    {
+      "path": "image/footer/text/Txt_newScenario.png",
+      "name": "image_footer_text_Txt_newScenario.png",
+      "url": "https://minasigo-no-shigoto-pd-c-res.orphans-order.com/2.7.020/2a728d30e26014bc8b48c9da321f75c5/75/e0/92/c5/d64ed9db186b41f47cbdce27f363a807.png"
+    }
+  ]
+}
