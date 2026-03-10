@@ -64,20 +64,12 @@ node download.js [类型]
 
 ### 4. 按寝室/场景 ID 拉资源（剧本 + CG + 语音）
 
-```bat
-fetch-resources.bat <寝室场景ID>
-```
+双击 **fetch-resources.bat**，按提示输入寝室场景 ID（数字，如 `122810112`），回车后开始拉取。  
+或在命令行运行并传参：`fetch-resources.bat 122810112`；只拉 CG 可加参数：`fetch-resources.bat 122810112 --cg`。
 
-示例：
+会拉取该场景的剧本、图片、语音到 **output/\<场景ID\>/**（如 `output/122810112/<sceneId>.txt`、`image/`、`sound/voice/` 等）。
 
-```bat
-fetch-resources.bat 122810112
-```
-
-会拉取该场景的剧本、图片、语音到 **output/\<场景ID\>/**（如 `output/122810112/<sceneId>.txt`、`image/`、`sound/voice/` 等）。  
-也可在命令后加参数传给脚本，例如只拉 CG：`fetch-resources.bat 122810112 --cg`。
-
-不传场景 ID 时，需先有 **result.json**（先运行 **start.bat** 生成），脚本会从 manifest 里取场景列表再批量拉取。
+不传场景 ID 且直接运行 `node fetch-resources.js` 时，需先有 **result.json**（先运行 **start.bat** 生成），脚本会从 manifest 里取场景列表再批量拉取。
 
 ## 其他
 
