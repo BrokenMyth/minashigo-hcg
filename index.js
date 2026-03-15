@@ -378,4 +378,4 @@ function getAuthorization(t, e) {
     o
 }
 
-module.exports = { fetchStoryResourcePath, readStory, _getUrl, _getMd5, decrypt, getAuthorization, __version: __ };
+module.exports = { fetchStoryResourcePath, readStory, _getUrl, _getMd5, decrypt, encrypt, getAuthorization, __version: __ };
