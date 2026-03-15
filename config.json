@@ -1,16 +1,16 @@
 {
   "version": {
-    "resourceVersion": "2.7.020",
-    "masterVersion": "2.7.02",
+    "resourceVersion": "2.7.030",
+    "masterVersion": "2.7.03",
     "clientVersion": "2.7.022",
-    "requireResourceVersion": "2.7.020",
+    "requireResourceVersion": "2.7.030",
     "requireClientVersion": "2.7.020"
   },
   "token": {
     "dmmId": "56333355",
     "userId": "AjE6fLqcHwI4ShBFuebwv",
-    "token": "4ORUErlHzaevb3riG4bUWz",
-    "secret": "t41zdJZqYvYoPenFx9Q2dS6aeNFC8LDQUlyyrwNOCkPyOhj4VzP12XVkvfuMwgTE56xDfR73FiN7C0psOvP05Q",
-    "expires": 1773628649
+    "token": "3jZKBPJAiojkoEED9Uvhep",
+    "secret": "mHOijUraF9lGsy1u4aU9tFHzaDCOOkhMyLSaOVaV9fLTKo5xarSOZX8g0pbqD1Xb3SbLaOXpfj8mAsl2c5zBCU",
+    "expires": 1774085709
   }
 }
