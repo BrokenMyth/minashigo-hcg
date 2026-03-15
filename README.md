@@ -48,8 +48,8 @@ update-manifest.bat
 ```
 
 或命令行：`node update-manifest.js`  
-会调 getVersion、从 CDN 拉 resource.json 解密后写入 **result.json**，并导出 **audio.json**、**script.json**（不调鉴权接口，不需 config/cert）。  
-需要刷新 result 或 audio/script 清单时可直接双击，无需执行 index.js。
+会调 getVersion、从 CDN 拉 resource.json 解密后写入 **result.json**（不调鉴权接口，不需 config/cert）。  
+需要刷新 result 时可直接双击，无需执行 index.js。
 
 ### 3. 拉 manifest + cg.json（index.js，需鉴权）
 
@@ -62,7 +62,7 @@ start.bat
 
 ### 4. 按类型批量下载（清单 → 本地文件）
 
-根据「类型」读取对应的清单 JSON（`data[].name` + `url`），把尚未下载的项用 URL 拉取到指定目录。清单来源：**audio / script** 由 **update-manifest.bat** 或 **start.bat** 生成；**cg** 由 **start.bat** 生成；**episode_story / stand / bgm** 由 `node get-resource-by-manifest.js list <类型>` 生成。
+根据「类型」读取对应的清单 JSON（`data[].name` + `url`），把尚未下载的项用 URL 拉取到指定目录。清单来源：**audio / script / cg** 由 **start.bat** 生成；**episode_story / stand / bgm** 由 `node get-resource-by-manifest.js list <类型>` 生成。
 
 ```bat
 node download.js [类型]
