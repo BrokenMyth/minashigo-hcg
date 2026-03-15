@@ -41,19 +41,28 @@ update-token.bat
 或命令行：`node update-token.js`  
 会请求 getVersion 并写回 **config.json**，保留原有 `token` 不变。
 
-### 2. 拉 manifest 并生成 result.json（index.js）
+### 2. 更新 manifest 与清单（无需鉴权，推荐）
+
+```bat
+update-manifest.bat
+```
+
+或命令行：`node update-manifest.js`  
+会调 getVersion、从 CDN 拉 resource.json 解密后写入 **result.json**，并导出 **audio.json**、**script.json**（不调鉴权接口，不需 config/cert）。  
+需要刷新 result 或 audio/script 清单时可直接双击，无需执行 index.js。
+
+### 3. 拉 manifest + cg.json（index.js，需鉴权）
 
 ```bat
 start.bat
 ```
 
 或命令行：`npm start` / `node index.js`  
-会拉取 getVersion、从 CDN 拉 resource.json 解密后写入 **result.json**，并导出 **audio.json**、**script.json**、**cg.json** 等。  
-需要 **result.json** 做批量场景列表或给 get-resource-by-manifest / download 用时，先运行本脚本。
+除 result.json、audio.json、script.json 外，还会用 getStoryResource 拉角色 CG 清单并写入 **cg.json**（需 config.json 的 token 与 cert.pem/key.pem）。
 
-### 3. 按类型批量下载（清单 → 本地文件）
+### 4. 按类型批量下载（清单 → 本地文件）
 
-根据「类型」读取对应的清单 JSON（`data[].name` + `url`），把尚未下载的项用 URL 拉取到指定目录。清单来源：**cg / audio / script** 由 **start.bat** 生成；**episode_story / stand / bgm** 由 `node get-resource-by-manifest.js list <类型>` 生成。
+根据「类型」读取对应的清单 JSON（`data[].name` + `url`），把尚未下载的项用 URL 拉取到指定目录。清单来源：**audio / script** 由 **update-manifest.bat** 或 **start.bat** 生成；**cg** 由 **start.bat** 生成；**episode_story / stand / bgm** 由 `node get-resource-by-manifest.js list <类型>` 生成。
 
 ```bat
 node download.js [类型]
@@ -62,14 +71,14 @@ node download.js [类型]
 类型：`cg` | `audio` | `script` | `episode_story` | `stand` | `bgm` | `story_voice`。不传则默认 `cg`。  
 未安装 Python 时用 **download.js**；有 Python 也可用 **download.py**（如 `python download.py episode_story`），二者行为一致。
 
-### 4. 按寝室/场景 ID 拉资源（剧本 + CG + 语音）
+### 5. 按寝室/场景 ID 拉资源（剧本 + CG + 语音）
 
 双击 **fetch-resources.bat**，按提示输入寝室场景 ID（数字，如 `122810112`），回车后开始拉取。  
 或在命令行运行并传参：`fetch-resources.bat 122810112`；只拉 CG 可加参数：`fetch-resources.bat 122810112 --cg`。
 
 会拉取该场景的剧本、图片、语音到 **output/\<场景ID\>/**（如 `output/122810112/<sceneId>.txt`、`image/`、`sound/voice/` 等）。
 
-不传场景 ID 且直接运行 `node fetch-resources.js` 时，需先有 **result.json**（先运行 **start.bat** 生成），脚本会从 manifest 里取场景列表再批量拉取。
+不传场景 ID 且直接运行 `node fetch-resources.js` 时，需先有 **result.json**（先运行 **update-manifest.bat** 或 **start.bat** 生成），脚本会从 manifest 里取场景列表再批量拉取。
 
 ## 其他
 
