@@ -5,40 +5,25 @@ const axios = require("axios");
 const https = require("https");
 const o = require('url');
 
-/// Replace this object by getVersion's response
-const __ = {
-  "resourceVersion": "2.7.020",
-  "masterVersion": "2.7.02",
-  "clientVersion": "2.7.022",
-}
-
-/// Replace this object by getDmmAccessToken's response
-const _ = {
-    "dmmId": "56333355",
-    "userId": "AjE6fLqcHwI4ShBFuebwv",
-    "token": "64RT2OtVeCNsHbfJ3vtZWt",
-    "secret": "IfW5JDQIvpErRVFT1ItP7CfhitPlIrzy1T1AZA2mYrZb3a4eVSV1ayhHiXm5l7gjPrpTnQU4gaTgoixgdslyij",
-    "expires": 1773584597
-}
-
+/// 版本与鉴权统一从 config.json 读取（version 由 update-token 更新，token 需手动填写）
+let __ = {};
+let _ = {};
 const _data = {
-  "dmmId": _.dmmId,
-  "user_id": _.userId,
-  "game_server_token": _.token,
-  "game_server_secret": _.secret,
+  "dmmId": "",
+  "user_id": "",
+  "game_server_token": "",
+  "game_server_secret": "",
   "consumer_key": "jFxXF3M0n4P056yfXtogRRjkZpWFTm52",
   "consumer_secret": "Ti60QlOqMur6trRkQY64xJkpRm47BupdPVM7bw5udWBxXPEQKGDraAmeO0y062DT2oVbSkbYbV0vWlSUe7y5OpVEwnqiMbyWHhqQA6ycS6utzRiCtHos9YDDjJ94JXuaBK7u0SGAjo1HK4pv4w5yegGBo3t1LyGICWAQ6XWxq82O",
   "signature_method": "HMAC-SHA256"
 };
-
-// 优先使用 update-token.js 生成的 config.json（版本 + token）
 try {
   const cfg = require("./config.json");
-  if (cfg.version) Object.assign(__, cfg.version);
+  if (cfg.version) __ = { ...cfg.version };
   if (cfg.token) {
-    Object.assign(_, cfg.token);
+    _ = { ...cfg.token };
     const t = cfg.token;
-    _data.dmmId = String(t.dmmId ?? _.dmmId ?? "");
+    _data.dmmId = String(t.dmmId ?? t.user_id ?? _.dmmId ?? "");
     _data.user_id = String(t.userId ?? t.user_id ?? _.userId ?? _.user_id ?? "");
     _data.game_server_token = String(t.token ?? t.oauth_token ?? _.token ?? "");
     _data.game_server_secret = String(t.secret ?? t.game_server_secret ?? _.secret ?? "");
