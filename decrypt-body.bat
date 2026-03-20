@@ -1,16 +1,24 @@
 @echo off
-chcp 65001 >nul
-setlocal enabledelayedexpansion
+setlocal EnableExtensions
+
 set "CIPHER=%~1"
 if "%CIPHER%"=="" (
-  echo Enter base64 ciphertext ^(e.g. from request "data" field^), then press Enter:
-  set /p CIPHER=""
-  if "!CIPHER!"=="" (
-    echo No input. Usage: decrypt-body.bat "U2FsdGVkX19..."
-    pause
-    exit /b 1
-  )
+  echo Enter base64 ciphertext (request "data" field^):
+  set /p CIPHER=
 )
-node "%~dp0decrypt-body.js" "!CIPHER!"
+
+if "%CIPHER%"=="" (
+  echo No input. Usage: decrypt-body.bat "U2FsdGVkX19..."
+  goto :END
+)
+
+node "%~dp0decrypt-body.js" "%CIPHER%"
+if errorlevel 1 (
+  echo.
+  echo decrypt-body.js exited with error.
+)
+
+:END
 echo.
 pause
+endlocal
